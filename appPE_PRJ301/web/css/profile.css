@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background: #d64b07;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.nav-links i {
+    margin-right: 5px;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    width: 100%;
+    margin-top: 10px; /* Để không bị che bởi menu */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+}
+
+.sidebar ul li:hover, .sidebar ul .active {
+    background: #d32f2f;
+    color: white;
+}
+
+/* Profile Form */
+.profile-form {
+    flex-grow: 1;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.profile-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.dob {
+    width: 30%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.edit-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.edit-link:hover {
+    text-decoration: underline;
+}
+
+.gender-group {
+    display: flex;
+    align-items: center;
+}
+
+.gender-group input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.save-btn {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.save-btn:hover {
+    background: #b71c1c;
+}

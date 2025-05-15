@@ -1,0 +1,118 @@
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .content-wrapper {
+                display: flex;
+                gap: 20px;
+            }
+            .left-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa toàn bộ nội dung */
+    justify-content: center;
+    text-align: center;
+}
+            .right-section {
+                width: 60%;
+            }
+            .product-images img {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+            }
+            .book-title {
+                font-size: 22px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+        .button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; /* Căn giữa hai nút */
+    gap: 15px; /* Tạo khoảng cách giữa hai nút */
+}
+
+.button-group form {
+    display: inline-block; /* Đảm bảo form không chiếm toàn bộ chiều rộng */
+}
+.button-group button {
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 160px; /* Cố định chiều rộng */
+    text-align: center;
+    height: 50px;
+}
+.add-to-cart {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.borrow-now {
+    background-color: #ff9966;
+    color: white;
+}
+            .description {
+                margin-top: 15px;
+                background: #f2f2f2;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            .review-section {
+                margin-top: 30px;
+            }
+            .star-rating {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: left;
+            }
+            .star-rating input {
+                display: none;
+            }
+            .star-rating label {
+                font-size: 30px;
+                color: gray;
+                cursor: pointer;
+            }
+            .star-rating input:checked ~ label,
+            .star-rating label:hover,
+            .star-rating label:hover ~ label {
+                color: gold;
+            }
+            .comment-input textarea {
+                width: 100%;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                font-size: 16px;
+                height: 150px;
+                resize: none;
+            }
+            .submit-review {
+                margin-top: 10px;
+                padding: 10px 15px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .review-list{
+                padding-top: 20px;
+            }
+      

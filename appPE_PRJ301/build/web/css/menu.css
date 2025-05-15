@@ -1,0 +1,84 @@
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            .header {
+                background-color: #E65100;
+                display: flex;
+
+                padding: 10px 20px;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            /* C?n ch?nh logo */
+
+
+            .logo img {
+                max-width: 250px; /* ?i?u ch?nh kích th??c logo */
+                height: auto;
+            }
+
+            /* C?n ch?nh thanh tìm ki?m */
+            .search-container {
+                flex: 2; /* Giúp thanh tìm ki?m n?m gi?a */
+                display: flex;
+                justify-content: center; /* ??m b?o n?m gi?a */
+            }
+
+            .search-form {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                max-width: 400px; /* Gi?i h?n chi?u r?ng */
+            }
+
+            .search-form input {
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                width: 100%;
+                font-size: 14px;
+            }
+
+            .search-form button {
+                background-color: #ddd;
+                color: black;
+                border: none;
+                padding: 8px 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-left: 5px;
+            }
+
+            /* C?n ch?nh menu v?i icon */
+            .menu {
+
+                display: flex;
+
+                gap: 15px;
+            }
+
+            .menu a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+            }
+
+            .menu a:hover {
+                text-decoration: underline;
+            }
+
+
